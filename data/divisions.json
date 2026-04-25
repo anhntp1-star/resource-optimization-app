@@ -1,0 +1,22 @@
+[
+  {
+    "division_id": "D01",
+    "name": "Cloud Services"
+  },
+  {
+    "division_id": "D02",
+    "name": "Data & AI"
+  },
+  {
+    "division_id": "D03",
+    "name": "Enterprise Apps"
+  },
+  {
+    "division_id": "D04",
+    "name": "Cybersecurity"
+  },
+  {
+    "division_id": "D05",
+    "name": "Legacy Maintenance"
+  }
+]
