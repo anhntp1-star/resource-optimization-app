@@ -40,3 +40,16 @@ export type Recommendation = "Keep" | "Reallocate" | "Upskill / Reallocate" | "O
 
 export type ResourceFlag = "Idle 2+ months" | "Idle 3+ months — high priority";
 export type DivisionFlag = "Rising bench" | "Extreme risk";
+
+export type ImportError = {
+  line: number;
+  column?: string;
+  message: string;
+  raw?: string;
+};
+
+export type ImportResult<T> = {
+  data: T[];
+  errors: ImportError[];
+  warnings: ImportError[];
+};
