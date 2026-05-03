@@ -11,7 +11,7 @@ import { selectCandidates } from "../lib/optimization";
 
 function read<T>(name: string): T {
   return JSON.parse(
-    readFileSync(resolve(process.cwd(), "data", name), "utf-8"),
+    readFileSync(resolve(process.cwd(), "public", "data", name), "utf-8"),
   ) as T;
 }
 

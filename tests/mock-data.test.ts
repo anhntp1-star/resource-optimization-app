@@ -11,7 +11,7 @@ import { classifyRisk } from "@/lib/risk";
 
 const root = resolve(__dirname, "..");
 const read = <T>(name: string): T =>
-  JSON.parse(readFileSync(resolve(root, "data", name), "utf-8")) as T;
+  JSON.parse(readFileSync(resolve(root, "public", "data", name), "utf-8")) as T;
 
 describe("mock data", () => {
   const divisions = read<Division[]>("divisions.json");

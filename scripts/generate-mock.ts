@@ -151,7 +151,7 @@ function genResourcesAndHeadcount(): {
 
 function main() {
   const root = resolve(process.cwd());
-  const dataDir = resolve(root, "data");
+  const dataDir = resolve(root, "public", "data");
   mkdirSync(dataDir, { recursive: true });
 
   const divisions: Division[] = PROFILES.map(({ division_id, name }) => ({ division_id, name }));

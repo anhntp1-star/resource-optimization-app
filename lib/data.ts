@@ -8,7 +8,7 @@ import type {
 } from "@/lib/types";
 
 function read<T>(name: string): T {
-  const path = resolve(process.cwd(), "data", name);
+  const path = resolve(process.cwd(), "public", "data", name);
   return JSON.parse(readFileSync(path, "utf-8")) as T;
 }
 
