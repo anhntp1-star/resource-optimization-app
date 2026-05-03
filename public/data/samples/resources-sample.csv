@@ -1,0 +1,13 @@
+resource_id,division_id,role,month,allocation_status,allocation_percentage
+R0101,D01,Senior Engineer,2026-02,Non-Allocated,0
+R0101,D01,Senior Engineer,2026-03,Non-Allocated,0
+R0101,D01,Senior Engineer,2026-04,Non-Allocated,0
+R0102,D01,Engineer,2026-02,Allocated,80
+R0102,D01,Engineer,2026-03,Allocated,75
+R0102,D01,Engineer,2026-04,Allocated,70
+R0201,D02,Senior Engineer,2026-02,Allocated,95
+R0201,D02,Senior Engineer,2026-03,Allocated,90
+R0201,D02,Senior Engineer,2026-04,Allocated,90
+R0301,D03,Engineer,2026-02,Allocated,80
+R0301,D03,Engineer,2026-03,Allocated,80
+R0301,D03,Engineer,2026-04,Allocated,80
