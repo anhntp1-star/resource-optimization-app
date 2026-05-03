@@ -7,6 +7,7 @@ export type Division = {
 
 export type DivisionPnL = {
   division_id: string;
+  division_name?: string;
   month: Month;
   revenue_actual: number;
   cost_actual: number;
