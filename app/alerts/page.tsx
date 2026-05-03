@@ -1,18 +1,13 @@
-import {
-  loadDivisions,
-  loadHeadcount,
-  loadPnL,
-  loadResources,
-  getAsOfMonth,
-} from "@/lib/data";
+"use client";
+import { useDataset } from "@/lib/useDataset";
 import { buildAlerts, buildDivisionRiskRows } from "@/lib/views";
 
 export default function AlertsPage() {
-  const divisions = loadDivisions();
-  const pnl = loadPnL();
-  const resources = loadResources();
-  const headcount = loadHeadcount();
-  const asOf = getAsOfMonth(pnl);
+  const { dataset, isLoading } = useDataset();
+  if (isLoading || !dataset) {
+    return <div className="text-sm text-slate-500">Loading…</div>;
+  }
+  const { divisions, pnl, resources, headcount, asOf } = dataset;
   const rows = buildDivisionRiskRows(divisions, pnl, resources, headcount, asOf);
   const alerts = buildAlerts(rows, resources, asOf);
 

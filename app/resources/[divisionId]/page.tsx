@@ -1,27 +1,26 @@
-import { notFound } from "next/navigation";
+"use client";
+import { useParams } from "next/navigation";
 import { RiskBadge } from "@/components/RiskBadge";
 import { AllocationSparkline } from "@/components/AllocationSparkline";
-import {
-  loadDivisions,
-  loadHeadcount,
-  loadPnL,
-  loadResources,
-  getAsOfMonth,
-} from "@/lib/data";
+import { useDataset } from "@/lib/useDataset";
 import { buildDivisionRiskRows, buildResourceDetail } from "@/lib/views";
 
-export default function ResourceDetail({ params }: { params: { divisionId: string } }) {
-  const divisions = loadDivisions();
-  const pnl = loadPnL();
-  const resources = loadResources();
-  const headcount = loadHeadcount();
-  const asOf = getAsOfMonth(pnl);
-  const rows = buildDivisionRiskRows(divisions, pnl, resources, headcount, asOf);
-  const row = rows.find((r) => r.division_id === params.divisionId);
-  if (!row) notFound();
+export default function ResourceDetail() {
+  const params = useParams<{ divisionId: string }>();
+  const divisionId = params.divisionId;
+  const { dataset, isLoading } = useDataset();
 
+  if (isLoading || !dataset) {
+    return <div className="text-sm text-slate-500">Loading…</div>;
+  }
+  const { divisions, pnl, resources, headcount, asOf } = dataset;
+  const rows = buildDivisionRiskRows(divisions, pnl, resources, headcount, asOf);
+  const row = rows.find((r) => r.division_id === divisionId);
+  if (!row) {
+    return <div className="text-sm text-slate-500">Division not found.</div>;
+  }
   const riskByDivision = Object.fromEntries(rows.map((r) => [r.division_id, r.risk]));
-  const detail = buildResourceDetail(params.divisionId, resources, riskByDivision, asOf);
+  const detail = buildResourceDetail(divisionId, resources, riskByDivision, asOf);
 
   return (
     <div className="space-y-6">

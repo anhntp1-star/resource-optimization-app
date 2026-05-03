@@ -1,22 +1,17 @@
+"use client";
 import Link from "next/link";
 import { RiskBadge } from "@/components/RiskBadge";
 import { KpiCard } from "@/components/KpiCard";
 import { GmBarChart } from "@/components/GmBarChart";
-import {
-  loadDivisions,
-  loadHeadcount,
-  loadPnL,
-  loadResources,
-  getAsOfMonth,
-} from "@/lib/data";
+import { useDataset } from "@/lib/useDataset";
 import { buildDivisionRiskRows } from "@/lib/views";
 
 export default function Page() {
-  const divisions = loadDivisions();
-  const pnl = loadPnL();
-  const resources = loadResources();
-  const headcount = loadHeadcount();
-  const asOf = getAsOfMonth(pnl);
+  const { dataset, isLoading } = useDataset();
+  if (isLoading || !dataset) {
+    return <div className="text-sm text-slate-500">Loading…</div>;
+  }
+  const { divisions, pnl, resources, headcount, asOf } = dataset;
   const rows = buildDivisionRiskRows(divisions, pnl, resources, headcount, asOf);
 
   const totalDivisions = rows.length;
