@@ -1,0 +1,302 @@
+[
+  {
+    "division_id": "D01",
+    "month": "2025-11",
+    "revenue_actual": 1058115,
+    "cost_actual": 974252,
+    "gm_actual_pct": 7.93,
+    "revenue_forecast": 1040500,
+    "cost_forecast": 989761,
+    "gm_forecast_pct": 4.88
+  },
+  {
+    "division_id": "D01",
+    "month": "2025-12",
+    "revenue_actual": 1044465,
+    "cost_actual": 967564,
+    "gm_actual_pct": 7.36,
+    "revenue_forecast": 1020554,
+    "cost_forecast": 974040,
+    "gm_forecast_pct": 4.56
+  },
+  {
+    "division_id": "D01",
+    "month": "2026-01",
+    "revenue_actual": 1087086,
+    "cost_actual": 1011945,
+    "gm_actual_pct": 6.91,
+    "revenue_forecast": 1087065,
+    "cost_forecast": 1037621,
+    "gm_forecast_pct": 4.55
+  },
+  {
+    "division_id": "D01",
+    "month": "2026-02",
+    "revenue_actual": 1060129,
+    "cost_actual": 993950,
+    "gm_actual_pct": 6.24,
+    "revenue_forecast": 1034098,
+    "cost_forecast": 990579,
+    "gm_forecast_pct": 4.21
+  },
+  {
+    "division_id": "D01",
+    "month": "2026-03",
+    "revenue_actual": 1094578,
+    "cost_actual": 1034463,
+    "gm_actual_pct": 5.49,
+    "revenue_forecast": 1120157,
+    "cost_forecast": 1076078,
+    "gm_forecast_pct": 3.94
+  },
+  {
+    "division_id": "D01",
+    "month": "2026-04",
+    "revenue_actual": 1055259,
+    "cost_actual": 1002336,
+    "gm_actual_pct": 5.02,
+    "revenue_forecast": 1039998,
+    "cost_forecast": 1004595,
+    "gm_forecast_pct": 3.4
+  },
+  {
+    "division_id": "D02",
+    "month": "2025-11",
+    "revenue_actual": 917253,
+    "cost_actual": 659203,
+    "gm_actual_pct": 28.13,
+    "revenue_forecast": 935381,
+    "cost_forecast": 644511,
+    "gm_forecast_pct": 31.1
+  },
+  {
+    "division_id": "D02",
+    "month": "2025-12",
+    "revenue_actual": 904633,
+    "cost_actual": 648712,
+    "gm_actual_pct": 28.29,
+    "revenue_forecast": 906657,
+    "cost_forecast": 626788,
+    "gm_forecast_pct": 30.87
+  },
+  {
+    "division_id": "D02",
+    "month": "2026-01",
+    "revenue_actual": 967187,
+    "cost_actual": 689614,
+    "gm_actual_pct": 28.7,
+    "revenue_forecast": 960267,
+    "cost_forecast": 661590,
+    "gm_forecast_pct": 31.1
+  },
+  {
+    "division_id": "D02",
+    "month": "2026-02",
+    "revenue_actual": 970080,
+    "cost_actual": 689477,
+    "gm_actual_pct": 28.93,
+    "revenue_forecast": 982804,
+    "cost_forecast": 677556,
+    "gm_forecast_pct": 31.06
+  },
+  {
+    "division_id": "D02",
+    "month": "2026-03",
+    "revenue_actual": 911803,
+    "cost_actual": 644215,
+    "gm_actual_pct": 29.35,
+    "revenue_forecast": 894931,
+    "cost_forecast": 617637,
+    "gm_forecast_pct": 30.98
+  },
+  {
+    "division_id": "D02",
+    "month": "2026-04",
+    "revenue_actual": 975533,
+    "cost_actual": 687905,
+    "gm_actual_pct": 29.48,
+    "revenue_forecast": 981018,
+    "cost_forecast": 678000,
+    "gm_forecast_pct": 30.89
+  },
+  {
+    "division_id": "D03",
+    "month": "2025-11",
+    "revenue_actual": 1335918,
+    "cost_actual": 1201105,
+    "gm_actual_pct": 10.09,
+    "revenue_forecast": 1317648,
+    "cost_forecast": 1186320,
+    "gm_forecast_pct": 9.97
+  },
+  {
+    "division_id": "D03",
+    "month": "2025-12",
+    "revenue_actual": 1352171,
+    "cost_actual": 1214848,
+    "gm_actual_pct": 10.16,
+    "revenue_forecast": 1383233,
+    "cost_forecast": 1245831,
+    "gm_forecast_pct": 9.93
+  },
+  {
+    "division_id": "D03",
+    "month": "2026-01",
+    "revenue_actual": 1426054,
+    "cost_actual": 1272942,
+    "gm_actual_pct": 10.74,
+    "revenue_forecast": 1433098,
+    "cost_forecast": 1291109,
+    "gm_forecast_pct": 9.91
+  },
+  {
+    "division_id": "D03",
+    "month": "2026-02",
+    "revenue_actual": 1324037,
+    "cost_actual": 1180366,
+    "gm_actual_pct": 10.85,
+    "revenue_forecast": 1362167,
+    "cost_forecast": 1226709,
+    "gm_forecast_pct": 9.94
+  },
+  {
+    "division_id": "D03",
+    "month": "2026-03",
+    "revenue_actual": 1417039,
+    "cost_actual": 1260018,
+    "gm_actual_pct": 11.08,
+    "revenue_forecast": 1411338,
+    "cost_forecast": 1268420,
+    "gm_forecast_pct": 10.13
+  },
+  {
+    "division_id": "D03",
+    "month": "2026-04",
+    "revenue_actual": 1322557,
+    "cost_actual": 1169629,
+    "gm_actual_pct": 11.56,
+    "revenue_forecast": 1323289,
+    "cost_forecast": 1191728,
+    "gm_forecast_pct": 9.94
+  },
+  {
+    "division_id": "D04",
+    "month": "2025-11",
+    "revenue_actual": 707287,
+    "cost_actual": 616151,
+    "gm_actual_pct": 12.89,
+    "revenue_forecast": 715682,
+    "cost_forecast": 608880,
+    "gm_forecast_pct": 14.92
+  },
+  {
+    "division_id": "D04",
+    "month": "2025-12",
+    "revenue_actual": 680911,
+    "cost_actual": 589007,
+    "gm_actual_pct": 13.5,
+    "revenue_forecast": 688848,
+    "cost_forecast": 586121,
+    "gm_forecast_pct": 14.91
+  },
+  {
+    "division_id": "D04",
+    "month": "2026-01",
+    "revenue_actual": 713802,
+    "cost_actual": 613052,
+    "gm_actual_pct": 14.11,
+    "revenue_forecast": 728341,
+    "cost_forecast": 618397,
+    "gm_forecast_pct": 15.1
+  },
+  {
+    "division_id": "D04",
+    "month": "2026-02",
+    "revenue_actual": 673840,
+    "cost_actual": 576332,
+    "gm_actual_pct": 14.47,
+    "revenue_forecast": 675450,
+    "cost_forecast": 574835,
+    "gm_forecast_pct": 14.9
+  },
+  {
+    "division_id": "D04",
+    "month": "2026-03",
+    "revenue_actual": 694817,
+    "cost_actual": 590279,
+    "gm_actual_pct": 15.05,
+    "revenue_forecast": 705116,
+    "cost_forecast": 598317,
+    "gm_forecast_pct": 15.15
+  },
+  {
+    "division_id": "D04",
+    "month": "2026-04",
+    "revenue_actual": 670408,
+    "cost_actual": 566635,
+    "gm_actual_pct": 15.48,
+    "revenue_forecast": 683510,
+    "cost_forecast": 581915,
+    "gm_forecast_pct": 14.86
+  },
+  {
+    "division_id": "D05",
+    "month": "2025-11",
+    "revenue_actual": 531776,
+    "cost_actual": 536330,
+    "gm_actual_pct": -0.86,
+    "revenue_forecast": 528157,
+    "cost_forecast": 543527,
+    "gm_forecast_pct": -2.91
+  },
+  {
+    "division_id": "D05",
+    "month": "2025-12",
+    "revenue_actual": 568753,
+    "cost_actual": 577654,
+    "gm_actual_pct": -1.57,
+    "revenue_forecast": 582873,
+    "cost_forecast": 603291,
+    "gm_forecast_pct": -3.5
+  },
+  {
+    "division_id": "D05",
+    "month": "2026-01",
+    "revenue_actual": 551652,
+    "cost_actual": 563185,
+    "gm_actual_pct": -2.09,
+    "revenue_forecast": 543844,
+    "cost_forecast": 565898,
+    "gm_forecast_pct": -4.06
+  },
+  {
+    "division_id": "D05",
+    "month": "2026-02",
+    "revenue_actual": 558139,
+    "cost_actual": 572253,
+    "gm_actual_pct": -2.53,
+    "revenue_forecast": 553674,
+    "cost_forecast": 579399,
+    "gm_forecast_pct": -4.65
+  },
+  {
+    "division_id": "D05",
+    "month": "2026-03",
+    "revenue_actual": 555142,
+    "cost_actual": 571839,
+    "gm_actual_pct": -3.01,
+    "revenue_forecast": 561828,
+    "cost_forecast": 590332,
+    "gm_forecast_pct": -5.07
+  },
+  {
+    "division_id": "D05",
+    "month": "2026-04",
+    "revenue_actual": 535252,
+    "cost_actual": 553901,
+    "gm_actual_pct": -3.48,
+    "revenue_forecast": 531393,
+    "cost_forecast": 560455,
+    "gm_forecast_pct": -5.47
+  }
+]
